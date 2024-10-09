@@ -1,0 +1,250 @@
+/*
+    Theme Name: Rekos Agency WordPress Theme
+    Description: Rekos Agency Theme
+    Version: 1.0
+    Author: Rekos Agency
+    Author URI: Rekos Agency <info@rekos.agency>
+    License: GNU General Public License version 3.0
+    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+    Tags: Rekos WordPress Theme
+*/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+input,
+button,
+textarea {
+  margin: 0;
+}
+
+input, textarea {
+  font-family: inherit;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #161519;
+  color: white;
+  overflow-x: clip;
+}
+body.body-lock {
+  max-height: 100dvh;
+  overflow: hidden;
+}
+
+a {
+  color: white;
+}
+
+main {
+  padding-top: 100px;
+}
+@media (max-width: 991px) {
+  main {
+    padding-top: 90px;
+  }
+}
+@media (max-width: 650px) {
+  main {
+    padding-top: 80px;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+html,
+body,
+input,
+button,
+textarea {
+  font-family: "Jost", sans-serif;
+}
+
+a,
+button,
+.transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.items-stretch {
+  align-items: stretch;
+}
+
+.grid {
+  display: grid;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-block > * {
+  margin-bottom: 2.5rem;
+}
+.text-block h1,
+.text-block h2,
+.text-block h3,
+.text-block h4,
+.text-block h5,
+.text-block h6 {
+  font-weight: 600;
+}
+.text-block h1 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+.text-block h2 {
+  font-size: 3rem;
+  line-height: 3.8rem;
+}
+.text-block h3 {
+  font-size: 2.8rem;
+  line-height: 3.6rem;
+}
+.text-block h4 {
+  font-size: 2.6rem;
+  line-height: 3.4rem;
+}
+.text-block h5 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.text-block h6 {
+  font-size: 2.2rem;
+  line-height: 3rem;
+}
+.text-block p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
+.text-block strong {
+  font-weight: 500;
+}
+.text-block ul,
+.text-block ol {
+  list-style: none;
+}
+.text-block ul li:not(:last-child),
+.text-block ol li:not(:last-child) {
+  margin-bottom: 1.2rem;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.container,
+.page-container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=style.css.map */

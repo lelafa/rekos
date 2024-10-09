@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+html,
+body {
+	margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+input,
+button,
+textarea {
+	margin: 0;
+}
+
+
+input, textarea {
+	font-family: inherit;
+	color: inherit;
+}

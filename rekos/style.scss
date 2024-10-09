@@ -1,0 +1,24 @@
+/*
+    Theme Name: Rekos Agency WordPress Theme
+    Description: Rekos Agency Theme
+    Version: 1.0
+    Author: Rekos Agency
+    Author URI: Rekos Agency <info@rekos.agency>
+    License: GNU General Public License version 3.0
+    License URI: http://www.gnu.org/licenses/gpl-3.0.html
+    Tags: Rekos WordPress Theme
+*/
+
+@import './css/reset/reset';
+@import './css/general/general';
+@import './css/header/header';
+@import './css/footer/footer';
+
+@import './css/homepage/homepage';
+
+.container,
+.page-container {
+  max-width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
