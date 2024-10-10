@@ -1,5 +1,6 @@
 <?php
 include( 'includes/scripts.php' );
+include( 'includes/additional.php' );
 include( 'includes/disable_comments.php' );
 
 // ACF
